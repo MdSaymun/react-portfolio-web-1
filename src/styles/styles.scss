@@ -393,6 +393,13 @@ a:hover {
         @include sectionHiglight();
       }
     }
+    .go-to-blog-page {
+      a {
+        &:hover {
+          color: rgb(221, 221, 221);
+        }
+      }
+    }
   }
 }
 /* SingleBlog Style end */

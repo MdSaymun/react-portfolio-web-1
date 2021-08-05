@@ -28,10 +28,9 @@ const SingleBlog = () => {
             </div>
           </div>
           <div className="text">{text}</div>
-        </div>
-
-        <div className="go-to-blog-page bg-blue-500 py-2 px-4 w-32 mx-4 mr-auto rounded-sm text-white text-center">
-          <Link to="/blog">Go To Blog</Link>
+          <div className="go-to-blog-page bg-blue-500 py-2 px-4 w-32 mt-4 hover:text-opacity-70 hover:text-gray-400 rounded-sm text-white text-center">
+            <Link to="/blog">Go To Blog</Link>
+          </div>
         </div>
       </div>
     </section>
