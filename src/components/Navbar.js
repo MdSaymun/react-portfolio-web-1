@@ -73,7 +73,7 @@ const Navbar = () => {
                   key={index}
                   to={link.path}
                   onClick={(e) => handleNav(e)}
-                  className={`hover:text-blue-400 lg:px-4 lg:py-3 text-gray-50 `}
+                  className={`hover:text-blue-400 lg:px-4 lg:py-3 text-gray-800 `}
                   exact
                   activeClassName="text-blue-400"
                 >
