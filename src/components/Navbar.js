@@ -50,7 +50,7 @@ const Navbar = () => {
   }, [navbtnLocation]);
 
   return (
-    <div className={`section_navbar p-2  transition-all duration-300 ${showNavbar ? "sticky_navbar bg-blue-200" : "lg:bg-transparent relative_navbar"}`}>
+    <div className={`section_navbar p-2  transition-all duration-300 ${showNavbar ? "sticky_navbar bg-gray-200" : "lg:bg-transparent relative_navbar"}`}>
       <div className="navbar-center items-center section">
         <div className="nav-header">
           <Link to="/" className="brand flex items-center justify-center">
